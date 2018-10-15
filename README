@@ -1,0 +1,22 @@
+# functions
+
+function name: printToolBoxToSerial
+input: none
+output: none
+what it does: prints ToolBox to Serial
+
+
+function name: printToolBox
+input: ToolBox
+output: none
+what it does: prints the input String to Serial 
+
+function name: multiplyIntegerByTwo
+input: a number
+output: a number
+what it does: multiplies the input number by 2 and returns the result
+
+function name: multiplyDecimalByTwo
+input: a number
+output: a number
+what it does: multiplies the input number by 3.14159 and returns the result
