@@ -1,22 +1,80 @@
 # functions
 
-function name: printToolBoxToSerial
-input: none
-output: none
-what it does: prints ToolBox to Serial
+function name: printMyNameToSerial
+//input: none
+//output: none
+//what it does: prints ToolBox to Serial
+void setup(){
+  Serial.begin(9600);
+}
 
+void loop() {
+int n=Will
+Serial.println(n);
+delay(500);
+}
 
-function name: printToolBox
-input: ToolBox
-output: none
-what it does: prints the input String to Serial 
+function name: printThisText
+//input: ThisText
+//output: none
+//what it does: prints the input String to Serial 
+
+void setup(){
+  Serial.begin(9600);
+}
+
+void loop() {
+void printThisText(){
+Serial.println(t);
+delay(500);
+}
+
 
 function name: multiplyIntegerByTwo
-input: a number
-output: a number
-what it does: multiplies the input number by 2 and returns the result
+//input: a number
+//output: a number
+//what it does: multiplies the input number by 2 and returns the result
+void setup(){
+  Serial.begin(9600);
+}
+
+void loop() {
+  int i = 2;
+  int j;
+  int k;
+
+  k = multiplyIntegerByTwo(i, j); 
+  Serial.println(k);
+  delay(500);
+}
+
+int multiplyIntegerByTwo(int x, int y){
+  int result;
+  result = x * y;
+  return result;
+}
+
 
 function name: multiplyDecimalByTwo
-input: a number
-output: a number
-what it does: multiplies the input number by 3.14159 and returns the result
+//input: a number
+//output: a number
+//what it does: multiplies the input number by 3.14159 and returns the result
+void setup(){
+  Serial.begin(9600);
+}
+
+void loop() {
+  int p = 3.14159;
+  int j;
+  int r;
+  
+  r = multiplyDecimalByTwo(p, j); 
+  Serial.println(k);
+  delay(500);
+}
+
+int multiplyDecimalByTwo(int x, int y){
+  int result;
+  result = x * y;
+  return result;
+}
