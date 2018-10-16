@@ -9,10 +9,10 @@ void setup(){
 }
 
 void loop() {
-int n=Will
-Serial.println(n);
+Serial.println(Will);
 delay(500);
 }
+
 
 function name: printThisText
 //input: ThisText
@@ -24,8 +24,8 @@ void setup(){
 }
 
 void loop() {
-void printThisText(){
-Serial.println(t);
+  int ThisText;
+Serial.println(ThisText);
 delay(500);
 }
 
@@ -39,18 +39,17 @@ void setup(){
 }
 
 void loop() {
-  int i = 2;
   int j;
   int k;
 
-  k = multiplyIntegerByTwo(i, j); 
+  k = multiplyIntegerByTwo(2*j); 
   Serial.println(k);
   delay(500);
 }
 
-int multiplyIntegerByTwo(int x, int y){
+int multiplyIntegerByTwo(int y){
   int result;
-  result = x * y;
+  result = 2 * y;
   return result;
 }
 
